@@ -29,9 +29,7 @@ def show_dice(roll)
     else roll = 6
         print(s6)
 
-while True:
-    input("Press Enter to roll")
-    roll
-    time.sleep(1)
-    show_dice(roll)
+roll
+time.sleep(1)
+show_dice(roll)
 
