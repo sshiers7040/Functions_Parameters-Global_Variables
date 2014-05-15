@@ -1,35 +1,31 @@
-#Coin flip program
-#Describe the purpose of this program here.
+#Die roll program
+#This program simulkates teh roll of a die.
+#It generates a random number from a range of 6,
+#with each number corresponding to a side on the die.
+#It then displays this side.
+#It could be used in simulated board games, adapted for dungeons and dragons or used with an actual board game.
 
-inport random;time
+import random #To simulate the die
+import time #To allow a better user appeal
 
-s1 = "- - - - -\n|       |\n|   O   |\n|       |\n- - - - -\n"
-s2 = "- - - - -\n| O     |\n|       |\n|     O |\n- - - - -\n"
-s3 = "- - - - -\n| O     |\n|   O   |\n|     O |\n- - - - -\n"
-s4 = "- - - - -\n| O   O |\n|       |\n| O   O |\n- - - - -\n"
-s5 = "- - - - -\n| O   O |\n|   O   |\n| O   O |\n- - - - -\n"
-s6 = "- - - - -\n| O   O |\n| O   O |\n| O   O |\n- - - - -\n"
+#To hold the displays for the dies sides
+dieSides= ["- - - - -\n|         |\n|   O   |\n|         |\n- - - - -\n",
+           "- - - - -\n|O      |\n|         |\n|      O|\n- - - - -\n",
+           "- - - - -\n|O      |\n|   O   |\n|      O|\n- - - - -\n",
+           "- - - - -\n|O   O|\n|        |\n|O   O|\n- - - - -\n",
+           "- - - - -\n|O   O|\n|   O   |\n|O   O|\n- - - - -\n",
+           "- - - - -\n|O   O|\n|O   O|\n|O   O|\n- - - - -\n"]
 
 def roll():
-    Print("rolling....."
-    roll = rand.randing(7)
+    print("Rolling.....") #Tell the user
+    roll = random.randint(0,5) #Creates arandom number from 0 to 5, a range of 6 (lists start at 0)
+    return roll #So roll can be used in the main game
 
 
-def show_dice(roll)
-    if roll = 1:
-        print(S1)
-    else roll = 2
-        print(s2)
-    else roll = 3
-        print(s3)
-    else roll = 4
-        print(s4)
-    else roll = 5
-        print(s5)
-    else roll = 6
-        print(s6)
+def showDie(roll):
+    print(dieSides[roll]) #Selects the corect side from the list
 
-roll
-time.sleep(1)
-show_dice(roll)
+roll = roll() #Roll, the die
+time.sleep(1) #Wait
+showDie(roll) #Show the side of the die
 
