@@ -9,6 +9,7 @@ import random #To simulate the die
 import time #To allow a better user appeal
 
 #To hold the displays for the dies sides
+#The 'O's were spaced for the font I use on idle
 dieSides= ["- - - - -\n|         |\n|   O   |\n|         |\n- - - - -\n",
            "- - - - -\n|O      |\n|         |\n|      O|\n- - - - -\n",
            "- - - - -\n|O      |\n|   O   |\n|      O|\n- - - - -\n",
