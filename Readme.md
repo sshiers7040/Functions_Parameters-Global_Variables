@@ -1,27 +1,27 @@
-Assessment Recap : Functions, Parameters and passing data.
+##Assessment Recap : Functions, Parameters and passing data.##
 ![](images/dice.png)
 ----------
 
 In this task you will have to fix a piece of sample code, describe it's purpose and improve it.
 Your progress will be judged using these criteria:
 
-Grade E & F
+###Grade E & F###
 - You will be able to describe the purpose of this code.
 - You will be able to fix some syntax errors (with some support)
 - The program may partially run and be partially commented
 
-Grade D & C
+###Grade D & C###
 - You will be able to describe the purpose of this code.
 - You will be able to fix all the syntax & runtime errors.
 - Your code will run, the program will behave as expected and will be commented
 
-Grade B,A & A*
+###Grade B,A & A*###
 - You will be able to describe the purpose of this code and describe practical uses for it
 - You will be able to fix all the syntax & runtime errors and improve the efficiency of the code.
 - Your code will run and you will have extended the function of the code and provide clear annotation of your code.
 
 The code can be seen below and opened [here](diceRoller.py).
-    
+```python
 #Coin flip program
 #Describe the purpose of this program here.
 
@@ -53,13 +53,12 @@ def show_dice()
     else roll = 6
         print(s6)
 
-while True:
-    input("Press Enter to roll")
+
     roll
     time.sleep(1)
     show_dice(roll)
-
-Tasks:
+```
+###Tasks:###
 1. Fork this repository and open in your account.
 2. Copy the code into Python and try to run.
 3. Fix the errors in the code (there are at least 20)
@@ -68,4 +67,5 @@ Tasks:
 5. Can you make the program ask for user input before rolling
 6. Can you make it roll until a 6 is rolled?
 7. How about until the player rolls any number twice in a row. 
-
+8. Complete any commenting.
+When you are done paste your code back on to Github, Commit the changes and submit a pull request
