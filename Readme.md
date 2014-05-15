@@ -2,8 +2,7 @@
 ![](images/dice.png)
 ----------
 
-In this task you will have to fix a piece of sample code, describe it's purpose and improve it.
-Your progress will be judged using these criteria:
+###In this task you will have to fix a piece of sample code, describe it's purpose and improve it. Your progress will be judged using these criteria:###
 
 ###Grade E & F###
 - You will be able to describe the purpose of this code.
@@ -68,4 +67,5 @@ def show_dice()
 6. Can you make it roll until a 6 is rolled?
 7. How about until the player rolls any number twice in a row. 
 8. Complete any commenting.
-When you are done paste your code back on to Github, Commit the changes and submit a pull request
+
+###When you are done paste your code back on to Github, Commit the changes and submit a pull request###
